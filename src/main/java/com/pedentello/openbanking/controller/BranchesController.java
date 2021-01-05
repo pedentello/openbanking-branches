@@ -1,12 +1,12 @@
-package com.example.demo.controller;
+package com.pedentello.openbanking.controller;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.example.demo.api.BranchesApi;
-import com.example.demo.models.ResponseBranchesList;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.pedentello.openbanking.api.BranchesApi;
+import com.pedentello.openbanking.models.ResponseBranchesList;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ChannelController implements BranchesApi {
+public class BranchesController implements BranchesApi {
 
     @RequestMapping("/branches")
     @Override

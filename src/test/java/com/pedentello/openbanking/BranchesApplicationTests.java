@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.pedentello.openbanking;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class BranchesApplicationTests {
 
 	@Test
 	void contextLoads() {
